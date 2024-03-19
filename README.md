@@ -1,25 +1,9 @@
 # Sunnyspot_Fullstack
- This is a tafe school project about accommondation written by HTML, CSS,Javascript, SQL, PHP, Please see the Checklist functioned below and have a try.
  
-1	Cabin images displayed 
-Cabin text is displayed 
- 	Prices are displayed 
+This is a school project that simulates a hotel booking system. It's built with HTML, CSS, Javascript, SQL, and PHP. Here's a summary of the functionalities:
 
-
-2	No PHP errors displayed  
-	Comments appear in the code to describe the code 
-  HTML code validates 
-	Database accessed on server 
-	Webpage displays on server 
-3	Admin menu page created with links to admin functions 
-  Cabin inserted in database 
- 	Data validated for insert 
- 	Cabins listed with edit and delete links 
- 	Cabin updated 
- 	Cabin deleted 
-	Testing document created with test results 
-
-4	login.php created 
-  processLogin.php ,Success and failure handled 
- 	logout.php  implemented 
-5	.htaccess Redirect implemented 
+Displays cabin information (images, text, prices) on a webpage.
+Ensures the code is functional, well-commented, and error-free.
+Creates an admin panel to manage cabins (add, edit, delete).
+Implements user login, logout, and success/failure handling.
+Redirects users for better security.
