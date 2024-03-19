@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Verdana, arial, sans-serif;
+  color: #343434;
+}
+
+h1,
+h2 h3,
+p,
+nav {
+  font-family: Quando, arial, serif;
+  color: #173e43;
+}
+
+h1,
+h2 h3,
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+nav {
+  list-style: none;
+  padding: 10px;
+  background-color: #ccc;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #ccc;
+}
+
+/* Style for the span elements */
+span {
+  font-weight: bold;
+  color: #f27d51;
+}
+
+/* Additional styling for the article container */
+article {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+article:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #173e43;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+footer a {
+  color: #f27d51;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#admin {
+  font-family: 'Quando', sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #fff;
+}
+
+/* styles specific to the About Us page */
+.about-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-header {
+  font-size: 24px;
+  color: #173e43;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #343434;
+  line-height: 1.5;
+}
+
+/* Insert Cabin Page Styles */
+
+.insert-cabin label,
+.insert-cabin input,
+.insert-cabin textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  cursor: text;
+}
+input[type='text'],
+textarea {
+  cursor: text;
+}
+
+/* Style the form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the submit button */
+.insert-cabin form button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.insert-cabin h1 {
+  text-align: center;
+}
+
+/* Style the back button */
+.insert-cabin button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the back button on hover */
+.insert-cabin button a:hover {
+  text-decoration: underline;
+}
+
+/* Style error messages */
+.insert-cabin .error {
+  color: red;
+  margin-top: 5px;
+}
+
+/* style for Admin Menu */
+
+body.admin-page {
+  font-family: 'Quando', sans-serif;
+  font-size: 16px;
+  color: #173e43;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 20px; */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.admin-page h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px;
+  background-color: #ccc;
+  padding: 10px;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.admin-page ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+}
+
+.admin-page li {
+  display: block;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+  margin: 30px;
+}
+
+.admin-page a {
+  color: #173e43;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.admin-page a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.admin-page button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-page button a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.button,
+button,
+input[type='submit'] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+button a {
+  color: white;
+  font-weight: bold;
+}
+
+input.delete {
+  background-color: red;
+}
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left-section {
+    margin-bottom: 10px;
+  }
+
+  /* Adjusted font size for better responsiveness */
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    margin-right: 10px;
+  }
+
+  nav {
+    font-size: 16px;
+  }
+
+  nav li {
+    margin-right: 10px;
+  }
+}
