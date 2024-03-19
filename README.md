@@ -1,7 +1,8 @@
 # Sunnyspot_Fullstack
  This is a tafe school project about accommondation written by HTML, CSS,Javascript, SQL, PHP, Please see the Checklist functioned below and have a try.
+ 
 1	Cabin images displayed 
- Cabin text is displayed 
+Cabin text is displayed 
  	Prices are displayed 
 
 
